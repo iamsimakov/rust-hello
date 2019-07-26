@@ -1,0 +1,10 @@
+[package]
+name = "test-pack"
+version = "0.1.0"
+authors = ["iamsimakov@gmail.com"]
+edition = "2018"
+
+[dependencies]
+actix-web = { version="1.0.5", features=[] }
+env_logger = "0.6.2"
+
